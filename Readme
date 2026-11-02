@@ -1,0 +1,75 @@
+# Bank Marketing Campaign Intelligence Dashboard
+
+## Project Overview
+
+An interactive Power BI dashboard built to analyse bank marketing campaign performance, customer subscription behaviour, and factors associated with successful term-deposit subscriptions.
+
+The project uses the UCI Bank Marketing dataset to explore customer segments, campaign contact frequency, previous campaign outcomes, and subscription conversion rates.
+
+## Business Objectives
+
+- Evaluate overall campaign subscription performance.
+- Identify customer segments with different conversion rates.
+- Analyse the relationship between contact frequency and subscription outcomes.
+- Examine whether previous campaign outcomes are associated with future subscriptions.
+- Translate analytical findings into potential marketing optimisation strategies.
+
+## Tools & Technologies
+
+- Microsoft Power BI
+- DAX (Data Analysis Expressions)
+- Data visualisation
+- Exploratory data analysis
+- Business intelligence and reporting
+
+## Dashboard Pages
+
+### 1. Overview
+Summarises total customers, successful subscriptions, overall conversion rate, average campaign contacts, and key performance trends.
+
+### 2. Campaign Analysis
+Examines subscription conversion by contact frequency, contact method, and previous campaign outcome.
+
+### 3. Customer Insights
+Explores subscription behaviour across occupational, demographic, and educational segments.
+
+### 4. Business Insights & Recommendations
+Summarises analytical findings and proposes potential actions for improving campaign effectiveness.
+
+## Key Findings
+
+The analysis investigates:
+
+- Differences in subscription rates across occupational groups.
+- The association between previous campaign success and current subscription outcomes.
+- Changes in observed conversion rates across contact-frequency groups.
+- Differences in subscription behaviour across customer segments.
+
+Numerical findings and recommendations should be interpreted alongside segment sizes and the limitations of observational data.
+
+## Data Source
+
+UCI Machine Learning Repository — Bank Marketing dataset.
+
+Dataset source: https://archive.ics.uci.edu/dataset/222/bank+marketing
+
+The dataset contains information about direct marketing campaigns conducted by a Portuguese banking institution.
+
+## Limitations
+
+- The analysis is observational and does not establish causation.
+- Marketing expenditure and revenue are not available, so campaign ROI cannot be calculated directly.
+- Conversion rates for small customer segments may be unstable.
+- Contact frequency alone does not establish whether additional calls improve or reduce conversion.
+
+## Future Improvements
+
+- Add more detailed customer segmentation.
+- Introduce SQL-based analysis.
+- Investigate campaign optimisation through controlled experiments.
+- Develop additional KPIs for campaign efficiency.
+- Improve report accessibility and visual consistency.
+
+## Author
+
+Created as a business intelligence portfolio project to demonstrate Power BI, DAX, analytical reasoning, and data-driven decision-making.
